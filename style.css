@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 700px){
+    .header h3{
+        display: none;
+    }
+}
+#title{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#order-btn{
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    color: white;
+    background-color: rgb(52, 130, 255);
+    border-radius: 20px;
+}
+#order-btn:hover{
+    color: rgb(52, 130, 255);
+    border: solid 1px rgb(52, 130, 255);
+    background-color: white;
+    transition: 0.5s;
+}
+.menu-nav p{
+    text-transform: uppercase;
+}
+.header{
+    height: 90px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px 0;
+    display: block;
+}
+.header h3{
+    color: black;
+    float: left;
+    line-height: 90px;
+    font: bold;
+    font-size: 25px;
+    padding-left: 5px;
+}
+#logo{
+    float: left;
+    margin-top: 27px;
+}
+#logo img{
+    float: left;
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+}
+.nav a{
+    float: right;
+    text-decoration: none;
+    color: black;
+    font: bold;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 90px;
+}
+.nav a:hover{
+    /*color: gray;
+    font-size: 30px;*/
+
+    border-bottom: solid 2px gray;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
