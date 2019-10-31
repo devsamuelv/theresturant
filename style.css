@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
 }
 @media screen and (max-width: 700px){
     .header h3{
@@ -12,21 +13,9 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
-#order-btn{
-    text-transform: uppercase;
-    padding: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border: none;
-    color: white;
-    background-color: rgb(52, 130, 255);
-    border-radius: 20px;
-}
-#order-btn:hover{
-    color: rgb(52, 130, 255);
-    border: solid 1px rgb(52, 130, 255);
-    background-color: white;
-    transition: 0.5s;
+#logo:hover{
+    cursor: default;
+    border-bottom: solid 0px white;
 }
 .menu-nav p{
     text-transform: uppercase;
@@ -41,7 +30,6 @@
     color: black;
     float: left;
     line-height: 90px;
-    font: bold;
     font-size: 25px;
     padding-left: 5px;
 }
@@ -59,17 +47,81 @@
     float: right;
     text-decoration: none;
     color: black;
-    font: bold;
     font-size: 25px;
     margin-left: 10px;
     margin-right: 10px;
     line-height: 90px;
 }
 .nav a:hover{
-    /*color: gray;
-    font-size: 30px;*/
+    /* color: rgb(177, 177, 177); */
 
-    border-bottom: solid 2px gray;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+}
+.img-contaner {
+    background-image: url("images/resturant.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.img-contaner h2 {
+    font-family: 'Handlee', cursive;
+    line-height: 450px;
+    color: white;
+    font-size: 45px;
+    text-shadow: 0 0 30px black;
+}
+#title-btn {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    outline: none;
+}
+#title-btn:hover {
+    background-color: transparent;
+    border: solid 2px black;
+    transition: 0.5s;
+    color: black;
+}
+/*::selection {*/
+/*    color: none;*/
+/*    background: none;*/
+/*}*/
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+/*.footer h2 {*/
+/*    font-family: Arial;*/
+/*    font-size: 20px;*/
+/*}*/
+.footer-div {
+    text-align: center;
+    background-color: #222e2f;
+    color: white;
+    padding-bottom: 200px;
+}
+
+/*footer text and links*/
+#name {
+    font-size: 25px;
+    float: left;
+    margin-bottom: 200px;
+}
+#slogan {
+    font-family: 'Handlee', cursive;
+    margin-bottom: 180px;
+    margin-top: 45px;
+    margin-left: 1px;
+    float: left;
 }

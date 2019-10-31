@@ -1,6 +1,9 @@
 .menu-order h2{
     margin-left: 50px;
 }
+.menu-order div{
+    float: inherit;
+}
 .menu-order img{
     height: 70px;
     width: 100px;
