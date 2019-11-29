@@ -9,9 +9,12 @@ let menu_text = document.getElementById('menu-text');
 let langbtn = document.getElementById('title-btn');
 
 function pageLang() {
-    if (Is_English == true) {
+    if (Is_English) {
         setSpanish();
-    } else if (Is_Spanish) {
+    } else {
+        console.log("Unknown Lang");
+    }
+    if (Is_Spanish) {
         setEnglish();
     } else {
         console.log("Unknown Lang");

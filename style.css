@@ -111,17 +111,44 @@
     color: white;
     padding-bottom: 200px;
 }
+button {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    outline: none;
+}
 
+button:hover {
+    background-color: transparent;
+    border: solid 2px black;
+    transition: 0.5s;
+    color: black;
+}
+
+#menu-layout {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #a7a7a7;
+    border-radius: 25px;
+}
+
+#menu-layout h3, #menu-layout h4 {
+    margin-bottom: 10px;
+}
 /*footer text and links*/
 #name {
     font-size: 25px;
     float: left;
     margin-bottom: 200px;
 }
-#slogan {
+#slogan-title {
     font-family: 'Handlee', cursive;
-    margin-bottom: 180px;
-    margin-top: 45px;
-    margin-left: 1px;
-    float: left;
 }
